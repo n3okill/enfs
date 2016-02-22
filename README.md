@@ -7,7 +7,7 @@
 
 enfs
 =========
-Module that methods and patches node fs module
+Module that add methods and patches to node fs module
  
 **enfs** stands for [E]asy [N]ode [fs]
 
