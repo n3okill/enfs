@@ -42,7 +42,7 @@ it instead of the native module.
 
 Use this
 ```js
-    var enfs = require("esnofs");
+    var enfs = require("enfs");
 ```
 
 instead of
