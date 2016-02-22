@@ -121,13 +121,13 @@ Additional mehods from modules
     * [mkdirpSync](https://www.npmjs.com/package/enfsmkdirp#mkdirpsync) - `enfs.mkdirpSync`
   - [enfsensure](https://www.npmjs.com/package/enfsensure)
     * [ensureFile](https://www.npmjs.com/package/enfsensure#ensurefile) - `enfs.ensureFile`
-    * [ensureFileSync](https://www.npmjs.com/package/enfsensure#ensurefilesync) - `enfs.ensureFileSync`
+    * [ensureFileSync](https://www.npmjs.com/package/enfsensure#ensurefile) - `enfs.ensureFileSync`
     * [ensureDir](https://www.npmjs.com/package/enfsensure#ensuredir) - `enfs.ensureDir`
-    * [ensureDirSync](https://www.npmjs.com/package/enfsensure#ensuredirsync) - `enfs.ensureDirSync`
+    * [ensureDirSync](https://www.npmjs.com/package/enfsensure#ensuredir) - `enfs.ensureDirSync`
     * [ensureLink](https://www.npmjs.com/package/enfsensure#ensurelink) - `enfs.ensureLink`
-    * [ensureLinkSync](https://www.npmjs.com/package/enfsensure#ensurelinksync) - `enfs.ensureLinkSync`
+    * [ensureLinkSync](https://www.npmjs.com/package/enfsensure#ensurelink) - `enfs.ensureLinkSync`
     * [ensureSymlink](https://www.npmjs.com/package/enfsensure#ensuresymlink) - `enfs.ensureSymlink`
-    * [ensureSymlinkSync](https://www.npmjs.com/package/enfsensure#ensuresymlinksync) - `enfs.ensureSymlinkSync`
+    * [ensureSymlinkSync](https://www.npmjs.com/package/enfsensure#ensuresymlink) - `enfs.ensureSymlinkSync`
   - [enfscopy](https://www.npmjs.com/package/enfscopy)
     * [copy](https://www.npmjs.com/package/enfscopy#copy) - `enfs.copy`
     * [copySync](https://www.npmjs.com/package/enfscopy#copysync) - `enfs.copySync`
