@@ -65,6 +65,38 @@ Additional Methods
 - [emptyDir](#emptydir)
 - [emptyDirSync](#emptydirsync)
 
+
+
+### emptyDir
+  - **emptyDir(path, callback)**
+
+> Remove all items from the directory this method use [rimraf](https://www.npmjs.com/package/rimraf), 
+then you can pass wildcards to the path like you do in rimraf
+
+
+```js
+    enfs.emptyDir("/path/to/empty/*", function(err){
+        if(!err) {
+            console.log("Directory is empty");
+        }
+    });
+```
+
+
+### emptyDirSync
+  - **emptyDirSync(path)**
+
+> Remove all items from the directory this method use [rimraf.sync](https://www.npmjs.com/package/rimraf), 
+then you can pass wildcards to the path like you do in rimraf
+
+
+```js
+    enfs.emptyDirSync("/path/to/empty/*");
+    console.log("Directory is empty");
+```
+
+
+
 Additional mehods from modules
 --------------------------
   - [enfspatch](https://www.npmjs.com/package/enfspatch)
@@ -102,35 +134,6 @@ Additional mehods from modules
   - [enfsmove](https://www.npmjs.com/package/enfsmove)
     * [move](https://www.npmjs.com/package/enfsmove#move)
     * [moveSync](https://www.npmjs.com/package/enfsmove#movesync)
-
-
-### emptyDir
-  - **emptyDir(path, callback)**
-
-> Remove all items from the directory this method use [rimraf](https://www.npmjs.com/package/rimraf), 
-then you can pass wildcards to the path like you do in rimraf
-
-
-```js
-    enfs.emptyDir("/path/to/empty/*", function(err){
-        if(!err) {
-            console.log("Directory is empty");
-        }
-    });
-```
-
-
-### emptyDirSync
-  - **emptyDirSync(path)**
-
-> Remove all items from the directory this method use [rimraf.sync](https://www.npmjs.com/package/rimraf), 
-then you can pass wildcards to the path like you do in rimraf
-
-
-```js
-    enfs.emptyDirSync("/path/to/empty/*");
-    console.log("Directory is empty");
-```
 
 
 License
