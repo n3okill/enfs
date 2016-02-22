@@ -100,40 +100,40 @@ then you can pass wildcards to the path like you do in rimraf
 Additional mehods from modules
 --------------------------
   - [enfspatch](https://www.npmjs.com/package/enfspatch)
-    * [exists](https://www.npmjs.com/package/enfspatch#exists)
-    * [existsSync](https://www.npmjs.com/package/enfspatch#exists)
-    * [existAccess](https://www.npmjs.com/package/enfspatch#existaccess)
-    * [existAccessSync](https://www.npmjs.com/package/enfspatch#existaccess)
-    * [existStat](https://www.npmjs.com/package/enfspatch#existstat)
-    * [existLStat](https://www.npmjs.com/package/enfspatch#existlstat)
-    * [existFStat](https://www.npmjs.com/package/enfspatch#existfstat)
-    * [existStatSync](https://www.npmjs.com/package/enfspatch#existstat)
-    * [existLStatSync](https://www.npmjs.com/package/enfspatch#existlstat)
-    * [existFStatSync](https://www.npmjs.com/package/enfspatch#existfstat)
+    * [exists](https://www.npmjs.com/package/enfspatch#exists) - `enfs.exists`
+    * [existsSync](https://www.npmjs.com/package/enfspatch#exists) - `enfs.existsSync`
+    * [existAccess](https://www.npmjs.com/package/enfspatch#existaccess) - `enfs.existAccess`
+    * [existAccessSync](https://www.npmjs.com/package/enfspatch#existaccess) - `enfs.existAccessSync`
+    * [existStat](https://www.npmjs.com/package/enfspatch#existstat) - `enfs.existStat`
+    * [existLStat](https://www.npmjs.com/package/enfspatch#existlstat) - `enfs.existLStat`
+    * [existFStat](https://www.npmjs.com/package/enfspatch#existfstat) - `enfs.existFStat`
+    * [existStatSync](https://www.npmjs.com/package/enfspatch#existstat) - `enfs.existStatSync`
+    * [existLStatSync](https://www.npmjs.com/package/enfspatch#existlstat) - `enfs.existLStatSync`
+    * [existFStatSync](https://www.npmjs.com/package/enfspatch#existfstat) - `enfs.existFStatSync`
   - [enfslist](https://www.npmjs.com/package/enfslist)
-    * [list](https://www.npmjs.com/package/enfslist#list)
-    * [listSync](https://www.npmjs.com/package/enfslist#listsync)
+    * [list](https://www.npmjs.com/package/enfslist#list) - `enfs.list`
+    * [listSync](https://www.npmjs.com/package/enfslist#listsync) - `enfs.listSync`
   - [enfsfind](https://www.npmjs.com/package/enfsfind)
-    * [find](https://www.npmjs.com/package/enfsfind#find)
-    * [findSync](https://www.npmjs.com/package/enfsfind#findsync)
+    * [find](https://www.npmjs.com/package/enfsfind#find) - `enfs.find`
+    * [findSync](https://www.npmjs.com/package/enfsfind#findsync) - `enfs.findSync`
   - [enfsmkdirp](https://www.npmjs.com/package/enfsmkdirp)
-    * [mkdirp](https://www.npmjs.com/package/enfsmkdirp#mkdirp)
-    * [mkdirpSync](https://www.npmjs.com/package/enfsmkdirp#mkdirpsync)
+    * [mkdirp](https://www.npmjs.com/package/enfsmkdirp#mkdirp) - `enfs.mkdirp`
+    * [mkdirpSync](https://www.npmjs.com/package/enfsmkdirp#mkdirpsync) - `enfs.mkdirpSync`
   - [enfsensure](https://www.npmjs.com/package/enfsensure)
-    * [ensureFile](https://www.npmjs.com/package/enfsensure#ensurefile)
-    * [ensureFileSync](https://www.npmjs.com/package/enfsensure#ensurefilesync)
-    * [ensureDir](https://www.npmjs.com/package/enfsensure#ensuredir)
-    * [ensureDirSync](https://www.npmjs.com/package/enfsensure#ensuredirsync)
-    * [ensureLink](https://www.npmjs.com/package/enfsensure#ensurelink)
-    * [ensureLinkSync](https://www.npmjs.com/package/enfsensure#ensurelinksync)
-    * [ensureSymlink](https://www.npmjs.com/package/enfsensure#ensuresymlink)
-    * [ensureSymlinkSync](https://www.npmjs.com/package/enfsensure#ensuresymlinksync)
+    * [ensureFile](https://www.npmjs.com/package/enfsensure#ensurefile) - `enfs.ensureFile`
+    * [ensureFileSync](https://www.npmjs.com/package/enfsensure#ensurefilesync) - `enfs.ensureFileSync`
+    * [ensureDir](https://www.npmjs.com/package/enfsensure#ensuredir) - `enfs.ensureDir`
+    * [ensureDirSync](https://www.npmjs.com/package/enfsensure#ensuredirsync) - `enfs.ensureDirSync`
+    * [ensureLink](https://www.npmjs.com/package/enfsensure#ensurelink) - `enfs.ensureLink`
+    * [ensureLinkSync](https://www.npmjs.com/package/enfsensure#ensurelinksync) - `enfs.ensureLinkSync`
+    * [ensureSymlink](https://www.npmjs.com/package/enfsensure#ensuresymlink) - `enfs.ensureSymlink`
+    * [ensureSymlinkSync](https://www.npmjs.com/package/enfsensure#ensuresymlinksync) - `enfs.ensureSymlinkSync`
   - [enfscopy](https://www.npmjs.com/package/enfscopy)
-    * [copy](https://www.npmjs.com/package/enfscopy#copy)
-    * [copySync](https://www.npmjs.com/package/enfscopy#copysync)
+    * [copy](https://www.npmjs.com/package/enfscopy#copy) - `enfs.copy`
+    * [copySync](https://www.npmjs.com/package/enfscopy#copysync) - `enfs.copySync`
   - [enfsmove](https://www.npmjs.com/package/enfsmove)
-    * [move](https://www.npmjs.com/package/enfsmove#move)
-    * [moveSync](https://www.npmjs.com/package/enfsmove#movesync)
+    * [move](https://www.npmjs.com/package/enfsmove#move) - `enfs.move`
+    * [moveSync](https://www.npmjs.com/package/enfsmove#movesync) - `enfs.moveSync`
 
 
 License
