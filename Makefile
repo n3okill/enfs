@@ -3,7 +3,7 @@ MOCHA_OPTS = --ui tdd --ignore-leaks --recursive --require should
 
 
 test-all: export REPORTER=dot
-test-all: test test-enfspatch test-enfsmkdirp test-enfsfind test-enfslist test-enfsensure test-enfscopy test-enfsmove
+test-all: test test-enfspatch test-enfsmkdirp test-enfsfind test-enfslist test-enfsensure test-enfscopy test-enfsmove test-enfscompare
 
 test:
 	@echo Starting test *********************************************************
@@ -69,4 +69,12 @@ test-enfsmove:
 	node_modules/enfsmove/test/*.js
 	@echo Ending test enfsmove
 
-.PHONY: test test-all test-enfspatch test-enfsmkdirp test-enfsfind test-enfslist test-enfsensure test-enfscopy test-enfsmove
+test-enfscompare:
+	@echo Testing enfscompare
+	@node ./node_modules/mocha/bin/mocha \
+	--reporter $(REPORTER) \
+	$(MOCHA_OPTS) \
+	node_modules/enfscompare/test/*.js
+	@echo Ending test enfscompare
+
+.PHONY: test test-all test-enfspatch test-enfsmkdirp test-enfsfind test-enfslist test-enfsensure test-enfscopy test-enfsmove test-enfscompare

@@ -10,8 +10,8 @@ var nodePath = require("path"),
     enFs = require("../"),
     cwd;
 
-describe("enFs", function() {
-    describe("emptyDir", function() {
+describe("enfs", function() {
+    describe("> emptyDir", function() {
         var tmpPath;
         before(function(done) {
             cwd = process.cwd();
@@ -29,7 +29,7 @@ describe("enFs", function() {
             process.chdir(cwd);
             enFs.remove(nodePath.dirname(tmpPath), done);
         });
-        describe("async", function() {
+        describe("> async", function() {
             describe("> when directory exists and contains items", function() {
                 it("should delete all items", function(done) {
                     enFs.readdir(tmpPath, function(errReaddir, files) {
@@ -95,7 +95,7 @@ describe("enFs", function() {
                 });
             });
         });
-        describe("sync", function() {
+        describe("> sync", function() {
             describe("> when directory exists and contains items", function() {
                 it("should delete all of the items", function(done) {
                     enFs.readdir(tmpPath, function(errReaddir, files) {

@@ -18,15 +18,18 @@ This is just the main module that will join many
 modules of the family of enfs, making it easier to use many of
 the methods present in each module.
 
+
 Modules
 -------
   - [enfspatch](https://www.npmjs.com/package/enfspatch)
+  - [enfsaddins](https://www.npmjs.com/package/enfsaddins)
   - [enfslist](https://www.npmjs.com/package/enfslist)
   - [enfsfind](https://www.npmjs.com/package/enfsfind)
   - [enfsmkdirp](https://www.npmjs.com/package/enfsmkdirp)
   - [enfsensure](https://www.npmjs.com/package/enfsensure)
   - [enfscopy](https://www.npmjs.com/package/enfscopy)
   - [enfsmove](https://www.npmjs.com/package/enfsmove)
+  - [enfscompare](https://www.npmjs.com/package/enfscompare)
 
 
 Methods Added
@@ -134,6 +137,15 @@ Additional mehods from modules
   - [enfsmove](https://www.npmjs.com/package/enfsmove)
     * [move](https://www.npmjs.com/package/enfsmove#move) - `enfs.move`
     * [moveSync](https://www.npmjs.com/package/enfsmove#movesync) - `enfs.moveSync`
+  - [enfscompare](https://www.npmjs.com/package/enfscompare)
+    * [compareFiles](https://www.npmjs.com/package/enfscompare#files) - `enfs.compareFiles`
+    * [compareFilesSync](https://www.npmjs.com/package/enfscompare#filessync) - `enfs.compareFilesSync`
+    * [compareFilesHash](https://www.npmjs.com/package/enfscompare#filesHash) - `enfs.compareFilesHash`
+    * [compareFilesHashSync](https://www.npmjs.com/package/enfscompare#filesHashSync) - `enfs.compareFilesHashSync`
+    * [compareDir](https://www.npmjs.com/package/enfscompare#dir) - `enfs.compareDir`
+    * [compareDirSync](https://www.npmjs.com/package/enfscompare#dirSync) - `enfs.compareDirSync`
+    * [compareDirHash](https://www.npmjs.com/package/enfscompare#dirHash) - `enfs.compareDirHash`
+    * [compareDirHashSync](https://www.npmjs.com/package/enfscompare#dirHashSync) - `enfs.compareDirHashSync`
 
 
 License
