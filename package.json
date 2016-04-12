@@ -1,6 +1,6 @@
 {
   "name": "enfs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Extras suite for node fs module",
   "license": "CC-BY-4.0",
   "author": {
